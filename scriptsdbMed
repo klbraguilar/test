@@ -1,0 +1,44 @@
+insert into paciente (nombre, apellido, fecha_nacimiento,direccion, telefono)
+values("Roberto", "Flores", "1995-01-01", "calle libertad",75654215);
+insert into paciente (nombre, apellido, fecha_nacimiento,direccion, telefono)
+values("Jose Carlos", "Padilla", "1989-05-18", "calle amboro",72854521);
+insert into paciente (nombre, apellido, fecha_nacimiento,direccion, telefono)
+values("Cris", "Moron", "1997-09-08", "zona los pozos",77365986);
+insert into paciente (nombre, apellido, fecha_nacimiento,direccion, telefono)
+values("Maria A", "Burgos", "1980-09-24", "segundo anillo",67854623);
+insert into paciente (nombre, apellido, fecha_nacimiento,direccion)
+values("Alicia", "Diaz", "1996-11-22", "tres pasos al frente",650236658);
+insert into paciente (nombre, apellido, fecha_nacimiento,direccion)
+values("Hernan", "Moscoso", "1980-12-05", "los tusequis",3635685);
+insert into paciente (nombre, apellido, fecha_nacimiento,direccion, telefono)
+values("Rosa", "Martinez", "1979-07-23", "av Pirai",75658045);
+insert into paciente (nombre, apellido, fecha_nacimiento,direccion, telefono)
+values("Diana", "Anzoategui", "1996-06-06", " Primer anillo ",66574521);
+insert into paciente (nombre, apellido, fecha_nacimiento,direccion, telefono)
+values("Samuel", "Cardona", "1993-08-15", "av Alemana",79865326);
+insert into paciente (nombre, apellido, fecha_nacimiento,direccion, telefono)
+values("Nadia", "Farias", "1991-09-26", "Av Roca y Coronado",77377340);
+
+
+
+insert into doctor (nombre,apellido,fecha_nacimiento,direccion,foto)values("Rocio","Rocha","1995-01-01"," calle libertad","");
+insert into doctor (nombre,apellido,fecha_nacimiento,direccion,foto)values("Carlos","Montalvo","1989-05-18"," calle amboro","");
+insert into doctor (nombre,apellido,fecha_nacimiento,direccion,foto)values("Ruben","Serrano","1997-09-08"," zona los pozos","");
+insert into doctor (nombre,apellido,fecha_nacimiento,direccion,foto)values("Raul","Mejia","1980-09-24"," segundo anillo","");
+insert into doctor (nombre,apellido,fecha_nacimiento,direccion,foto)values("Rodrigo","Salas","1996-11-22"," tres pasos al frente","");
+insert into doctor (nombre,apellido,fecha_nacimiento,direccion,foto)values("Carmen","Gonzales","1980-12-05"," los tusequis","");
+insert into doctor (nombre,apellido,fecha_nacimiento,direccion,foto)values("Ronald","Martinez","1979-07-23"," av Pirai","");
+insert into doctor (nombre,apellido,fecha_nacimiento,direccion,foto)values("Andrea","Zelada","1996-06-06","Primer anillo","");
+insert into doctor (nombre,apellido,fecha_nacimiento,direccion,foto)values("Esperanza","Nogales","1993-08-15"," av Alemana","");
+insert into doctor (nombre,apellido,fecha_nacimiento,direccion,foto)values("Noelia","Nava","1991-09-26"," Av Roca y Coronado","");
+
+
+insert into consulta(descripcion, fecha,id_pac,id_doc) values("visita de rutina","2020-04-20",9,3);
+insert into consulta(descripcion, fecha,id_pac,id_doc) values("Problemas en los rinhones","2020-05-10",10,1);
+insert into consulta(descripcion, fecha,id_pac,id_doc) values("Rayos X","2020-01-19",5,4);
+insert into consulta(descripcion, fecha,id_pac,id_doc) values("Consulta cardiologia",6,4);
+insert into consulta(descripcion, fecha,id_pac,id_doc) values("Rotura de ligamento",9,7);
+insert into consulta(descripcion, fecha,id_pac,id_doc) values("visita de rutina",8,3);
+insert into consulta(descripcion, fecha,id_pac,id_doc) values("Rayos X","2020-04-19",5,4);
+insert into consulta(descripcion, fecha,id_pac,id_doc) values("Dolores agudos en la rodilla",3,7);
+
