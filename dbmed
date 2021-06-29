@@ -1,0 +1,29 @@
+create database med;
+use med;
+
+create table paciente(
+    id int auto_increment,
+    nombre varchar(100) not null,
+    apellido varchar(100) not null,
+    fecha_nacimiento date not null,
+    direccion varchar(200) not null,
+    telefono int not null,
+    primary key(id)
+);
+
+create table doctor(
+    id int auto_increment,
+    nombre varchar(40) not null,
+    apellido varchar(100) not null,
+    fecha_nacimiento date not null,
+    direccion varchar(200) not null,
+    foto varchar(255),
+    Primary key(id)
+);
+
+create table consulta(
+    id int auto_increment,
+    descripcion varchar(300) not null,
+    fecha date not null,
+    primary key(id)
+);
