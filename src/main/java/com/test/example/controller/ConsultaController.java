@@ -48,12 +48,16 @@ public class ConsultaController {
     @PostMapping(value = "/cons/{pacId}/{docId}")
     public ResponseEntity<?> agregar(@PathVariable (value = "pacId") int id, @PathVariable (value = "docId") int idDoc
             ,@RequestBody Consulta consulta){
+        AsignarDatosConsulta(id, idDoc, consulta);
+        consultaServide.save(consulta);
+        return new ResponseEntity(new Mensaje(CREADO_CORRECTAMENTE), STATUS_OK);
+    }
+
+    private void AsignarDatosConsulta(int id, int idDoc, Consulta consulta) {
         Paciente paciente = pacienteService.listarPorID(id).get();
         Doctor doctorId = doctorService.listarPorID(idDoc).get();
         consulta.setPaciente(paciente);
         consulta.setDoctor(doctorId);
-        consultaServide.save(consulta);
-        return new ResponseEntity(new Mensaje(CREADO_CORRECTAMENTE), STATUS_OK);
     }
 
     @PutMapping("/update/{id}")
