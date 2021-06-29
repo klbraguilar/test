@@ -1,0 +1,16 @@
+Repositorio(spring): 'https://bitbucket.org/kleberap1/testdev/src/master/'
+1.- Ejecutar el archivo de texto dbmed en el gestos MySql el cual contiene la creación de 
+la DB con sus respectivas tablas, que se usará para el ejemplo.
+2. Iniciar o Ejecutar la aplicacion example lo cual completará el proceso de la creación 
+de las tablas de la Db.
+3. Ejecutar en MySql el script para poblar la Db que se encuentra en el archivo de texto
+scriptsdbmed.
+
+
+Repositorio(angular): 'https://bitbucket.org/kleberap1/angular/src/master/'
+Dentro de la consola accede a la carpeta del proyecto (dependiendo de donde decida almacenar el proyecto).
+5. 'npm install' (para instalar dependencias de node)
+6. 'npx -p devextreme-cli devextreme add devextreme-angular' (agregar dependencias al proyecto)
+4. Compilar el proyecto usando los comandos de angular usando la consola (CLI):
+	- una vez en la ruta del proyecto ejecuta el comando 'ng serve' para iniciar el proyecto.
+	  url: 'http://localhost:4200/'	
